@@ -1,4 +1,4 @@
 
-[submodule "Frontend"]
+[submodule "frontend"]
 	path = Frontend
 	url = https://github.com/hectic-oslo/Frontend-Buy_Easy
