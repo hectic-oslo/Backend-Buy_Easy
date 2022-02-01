@@ -7,7 +7,7 @@ const admin= require("../middleware/authAdmin");
 
 
 router.get('/Api/products',async(req,res)=>{
-     const pageSize=10
+     const pageSize=6
      const page=Number(req.query.page)||1
     const keyword=req.query.keyword?{
         name:{
